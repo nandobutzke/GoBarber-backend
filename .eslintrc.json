@@ -33,7 +33,7 @@
         "no-use-before-define": "off",
         "prettier/prettier": "error",
         "class-methods-use-this": "off",
-        "camelcase": [2, {"properties": "never"}]
+        "camelcase": "off"
     },
     "settings": {
         "import/resolver": {

@@ -13,8 +13,6 @@ appointmentsRouter.get('/', async (request, response) => {
     const appointmentsRepository = getCustomRepository(AppointmentsRepository);
     const appointments = await appointmentsRepository.find();
 
-    console.log(request.user);
-
     return response.json(appointments);
 });
 
